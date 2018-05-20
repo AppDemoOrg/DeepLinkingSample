@@ -9,7 +9,6 @@ import android.widget.TextView;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import cc.lkme.deeplinking.R;
 
 /**
  * @描述： @BrowserActivity

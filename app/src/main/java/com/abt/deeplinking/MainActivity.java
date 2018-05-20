@@ -7,7 +7,6 @@ import com.orhanobut.logger.Logger;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import cc.lkme.deeplinking.R;
 
 /**
  * @描述： @MainActivity
@@ -27,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         if (getIntent().getData() != null) {
-            //获取query中的数据
+            // 获取query中的数据
             String clickId = getIntent().getData().getQueryParameter("click_id");
             Logger.d("clickId = "+clickId);
         }
