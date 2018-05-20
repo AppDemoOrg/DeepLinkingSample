@@ -27,10 +27,8 @@
             <!-- APP Links方式,Android 23版本及以后支持 -->
             <intent-filter android:autoVerify="true">
                 <action android:name="android.intent.action.VIEW" />
-
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-
                 <data
                     android:host="lkme.cc"
                     android:pathPrefix="/AfC"
